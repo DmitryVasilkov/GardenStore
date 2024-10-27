@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { clearCart } from '../../../store/slices/cartSlice'
 
 import s from './CartOrder.module.css'
-import ModalWindow from '../../homeComponents/ModalWindow/ModalWindow'
+import ModalWindow from '../../homeComponents/modalWindow/ModalWindow'
 import CheckoutForm from '../../homeComponents/checkoutForm/CheckoutForm'
 
 import { BASE_URL } from '../../../config'
